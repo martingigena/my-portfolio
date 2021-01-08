@@ -35,7 +35,7 @@ const NavBar = ({ theme, setTheme }) => {
       expand="lg"
       expanded={expanded}
     >
-      <Navbar.Brand href="/">
+      <Navbar.Brand href="/my-portfolio">
         <img
           className="d-inline-block align-top"
           alt="React Logo"
@@ -46,7 +46,6 @@ const NavBar = ({ theme, setTheme }) => {
       </Navbar.Brand>
       <Navbar.Toggle
         aria-controls="basic-navbar-nav"
-        
         onClick={() => setExpanded(expanded ? false : true)}
       />
       <Navbar.Collapse id="basic-navbar-nav">
@@ -60,7 +59,6 @@ const NavBar = ({ theme, setTheme }) => {
               smooth={true}
               duration={750}
               offset={-8}
-             
               onClick={() =>
                 setTimeout(() => {
                   setExpanded(false);
@@ -79,7 +77,6 @@ const NavBar = ({ theme, setTheme }) => {
               smooth={true}
               duration={750}
               offset={-8}
-            
               onClick={() =>
                 setTimeout(() => {
                   setExpanded(false);
@@ -98,7 +95,6 @@ const NavBar = ({ theme, setTheme }) => {
               smooth={true}
               duration={750}
               offset={-8}
-            
               onClick={() =>
                 setTimeout(() => {
                   setExpanded(false);
@@ -117,7 +113,6 @@ const NavBar = ({ theme, setTheme }) => {
               smooth={true}
               duration={750}
               offset={-8}
-             
               onClick={() =>
                 setTimeout(() => {
                   setExpanded(false);
