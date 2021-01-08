@@ -12,6 +12,7 @@
 ************************************************************** */
 body {
   background-color: black;
+
 }
 h2 {
   font-family: "Permanent Marker";
@@ -28,7 +29,7 @@ hr {
 }
 .scroll,
 .social-links {
-  font-size: 2.5rem;
+  font-size: 2.0rem;
 }
 #error {
   color: $reactBlue;
@@ -126,7 +127,7 @@ hr {
   .scroll {
     color: $reactBlue;
     #scroll-down {
-      margin-top: 5rem;
+      margin-top: 0rem;
     }
   }
 }

@@ -4,6 +4,7 @@ import { Link } from "react-scroll";
 import { FaChevronCircleDown } from "react-icons/fa";
 import NavBar from "../containers/NavBar";
 import SocialLinks from "./SocialLinks";
+import { Fragment } from "react";
 
 const About = ({
   theme,
@@ -26,7 +27,8 @@ const About = ({
   return (
     <header id="about" className={newTheme}>
       <NavBar theme={theme} setTheme={setTheme} />
-      <div className="container text-center">
+
+      <div className="container text-center ">
         <img src={avatar} alt="Foto" height="20%" width="20%" />
         <h1>{name}</h1>
         <hr />

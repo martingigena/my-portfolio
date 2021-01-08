@@ -33,6 +33,7 @@ const NavBar = ({ theme, setTheme }) => {
       variant="dark"
       fixed="top"
       expand="lg"
+      position="fixed"
       expanded={expanded}
     >
       <Navbar.Brand href="/my-portfolio">

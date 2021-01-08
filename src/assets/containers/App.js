@@ -6,6 +6,7 @@ import Skills from "../components/Skills";
 import Projects from "./Projects";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
+import NavBar from "../containers/NavBar";
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -31,7 +32,7 @@ const App = () => {
       })
       .then((data) => {
         setData(data);
-        document.title = data.name;        
+        document.title = data.name;
         setIsLoading(false);
       })
       .catch((error) => console.log(error));
@@ -57,7 +58,7 @@ const App = () => {
   return (
     <>
       <About theme={theme} setTheme={setTheme} {...homeData} />
-      <main>
+      <main className="container">
         <Skills theme={theme} />
         <Projects theme={theme} githubUsername={githubUsername} />
         <Contact theme={theme} avatar={homeData.avatar} name={homeData.name} />
