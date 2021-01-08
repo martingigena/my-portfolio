@@ -27,7 +27,7 @@ const About = ({
     <header id="about" className={newTheme}>
       <NavBar theme={theme} setTheme={setTheme} />
       <div className="container text-center">
-        <img src={avatar} alt="Foto" height="30%" width="30%" />
+        <img src={avatar} alt="Foto" height="20%" width="20%" />
         <h1>{name}</h1>
         <hr />
         <p>{bio}</p>
