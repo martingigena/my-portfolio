@@ -2,7 +2,7 @@
 import { Link } from "react-scroll";
 // https://react-icons.github.io/react-icons/
 import { FiMail } from "react-icons/fi";
-import { FaChevronCircleUp } from "react-icons/fa";
+import { FaChevronCircleUp, FaFilePdf } from "react-icons/fa";
 import { contactInfo } from "../../data";
 
 const mail = `mailto:${contactInfo.email}`;
@@ -47,6 +47,17 @@ const Contact = ({ theme, avatar, name }) => {
             ) : (
               ""
             )}
+            <div className="container mt-5">
+              <div className="row">
+                <div className="col-md-3"></div>
+                <div className="col-md-6">
+                  <a href="https://drive.google.com/uc?id=1Ea5JTm4QVqi4Ca2ljRbneW7yMefoTJ1Z&export=download">
+                    <FaFilePdf className="display-4" />
+                  </a>
+                  <div>RESUME</div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <Link className="scroll" to="about" smooth={true} duration={750}>

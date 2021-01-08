@@ -6,7 +6,6 @@ import Skills from "../components/Skills";
 import Projects from "./Projects";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
-import NavBar from "../containers/NavBar";
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
