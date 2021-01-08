@@ -58,7 +58,7 @@ const App = () => {
   return (
     <>
       <About theme={theme} setTheme={setTheme} {...homeData} />
-      <main className="container">
+      <main>
         <Skills theme={theme} />
         <Projects theme={theme} githubUsername={githubUsername} />
         <Contact theme={theme} avatar={homeData.avatar} name={homeData.name} />
