@@ -51,7 +51,7 @@ const Contact = ({ theme, avatar, name }) => {
               <div className="row">
                 <div className="col-md-3"></div>
                 <div className="col-md-6">
-                  <a href="https://drive.google.com/uc?id=1Ea5JTm4QVqi4Ca2ljRbneW7yMefoTJ1Z&export=download">
+                  <a href="https://drive.google.com/uc?id=14LBgA40snCO0Koo9GX8BpWWliTJ2xiKo&export=download">
                     <FaFilePdf className="display-4" />
                   </a>
                   <div>RESUME</div>
