@@ -47,6 +47,7 @@ const Contact = ({ theme, avatar, name }) => {
             ) : (
               ""
             )}
+            {/*
             <div className="container mt-5">
               <div className="row">
                 <div className="col-md-3"></div>
@@ -58,6 +59,7 @@ const Contact = ({ theme, avatar, name }) => {
                 </div>
               </div>
             </div>
+            */}
           </div>
         </div>
         <Link className="scroll" to="about" smooth={true} duration={750}>
